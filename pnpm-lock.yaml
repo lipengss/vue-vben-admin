@@ -51,9 +51,6 @@ catalogs:
     '@manypkg/get-packages':
       specifier: ^3.0.0
       version: 3.1.0
-    '@nolebase/vitepress-plugin-git-changelog':
-      specifier: ^2.18.0
-      version: 2.18.2
     '@playwright/test':
       specifier: ^1.56.1
       version: 1.56.1
@@ -69,9 +66,6 @@ catalogs:
     '@tailwindcss/typography':
       specifier: ^0.5.16
       version: 0.5.19
-    '@tanstack/vue-query':
-      specifier: ^5.91.0
-      version: 5.91.2
     '@tanstack/vue-store':
       specifier: ^0.8.0
       version: 0.8.0
@@ -84,9 +78,6 @@ catalogs:
     '@types/html-minifier-terser':
       specifier: ^7.0.2
       version: 7.0.2
-    '@types/json-bigint':
-      specifier: ^1.0.4
-      version: 1.0.4
     '@types/jsonwebtoken':
       specifier: ^9.0.10
       version: 9.0.10
@@ -129,9 +120,6 @@ catalogs:
     '@vee-validate/zod':
       specifier: ^4.15.1
       version: 4.15.1
-    '@vite-pwa/vitepress':
-      specifier: ^1.0.0
-      version: 1.0.1
     '@vitejs/plugin-vue':
       specifier: ^6.0.1
       version: 6.0.1
@@ -153,9 +141,6 @@ catalogs:
     '@vueuse/motion':
       specifier: ^3.0.3
       version: 3.0.3
-    ant-design-vue:
-      specifier: ^4.2.6
-      version: 4.2.6
     archiver:
       specifier: ^7.0.1
       version: 7.0.1
@@ -315,12 +300,6 @@ catalogs:
     lucide-vue-next:
       specifier: ^0.553.0
       version: 0.553.0
-    medium-zoom:
-      specifier: ^1.1.0
-      version: 1.1.0
-    naive-ui:
-      specifier: ^2.42.0
-      version: 2.43.2
     nitropack:
       specifier: ^2.11.13
       version: 2.12.9
@@ -432,9 +411,6 @@ catalogs:
     tailwindcss-animate:
       specifier: ^1.0.7
       version: 1.0.7
-    tdesign-vue-next:
-      specifier: ^1.17.1
-      version: 1.17.3
     theme-colors:
       specifier: ^0.1.0
       version: 0.1.0
@@ -477,12 +453,6 @@ catalogs:
     vite-plugin-vue-devtools:
       specifier: ^8.0.3
       version: 8.0.3
-    vitepress:
-      specifier: ^1.6.3
-      version: 1.6.4
-    vitepress-plugin-group-icons:
-      specifier: ^1.6.1
-      version: 1.6.5
     vitest:
       specifier: ^3.2.4
       version: 3.2.4
@@ -532,6 +502,13 @@ overrides:
 importers:
 
   .:
+    dependencies:
+      '@element-plus/icons-vue':
+        specifier: ^2.3.2
+        version: 2.3.2(vue@3.5.24(typescript@5.9.3))
+      nanoid:
+        specifier: ^5.1.6
+        version: 5.1.6
     devDependencies:
       '@changesets/changelog-github':
         specifier: 'catalog:'

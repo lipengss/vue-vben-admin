@@ -84,7 +84,6 @@ const projectItems: WorkbenchProjectItem[] = [
     url: 'https://developer.mozilla.org/zh-CN/docs/Web/JavaScript',
   },
 ];
-
 // 同样，这里的 url 也可以使用以 http 开头的外部链接
 const quickNavItems: WorkbenchQuickNavItem[] = [
   {
@@ -124,7 +123,6 @@ const quickNavItems: WorkbenchQuickNavItem[] = [
     url: '/analytics',
   },
 ];
-
 const todoItems = ref<WorkbenchTodoItem[]>([
   {
     completed: false,

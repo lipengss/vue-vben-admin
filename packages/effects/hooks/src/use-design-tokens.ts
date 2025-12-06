@@ -312,6 +312,9 @@ export function useElementPlusDesignTokens() {
         '--el-text-color-primary': getCssVariableValue('--foreground'),
 
         '--el-text-color-regular': getCssVariableValue('--foreground'),
+        // table
+        '--el-table-header-bg-color': getCssVariableValue('--accent-lighter'),
+        '--el-table-border': border,
       };
 
       updateCSSVariables(variables, `__vben_design_styles__`);
