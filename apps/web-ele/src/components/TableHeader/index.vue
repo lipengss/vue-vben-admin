@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { TableColumnCtx } from 'element-plus';
+import type { TableColumnConfig } from '../TableColumns/types';
 
 import { Setting } from '@element-plus/icons-vue';
 import {
@@ -17,7 +17,7 @@ import {
 
 interface Props {
   title?: string;
-  columns?: TableColumnCtx[];
+  columns?: TableColumnConfig[];
 }
 const props = withDefaults(defineProps<Props>(), {
   title: '',
